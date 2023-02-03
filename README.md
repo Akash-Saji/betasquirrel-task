@@ -9,7 +9,7 @@ Tasks for Betasquirrel
 
  | Task1 ![Task 1](Task-1/images/req1.jpg)      | Screenshot ![Screenshot](Task-1/images/Screenshot.png) |
  | Task2 ![Task 2](Task-2/images/req.jpg)       | Screenshot ![Screenshot](Task-2/images/Screenshot.png) |
- | Task3 ![Task 3](Task-2/images/1.1.jpg)       |  |
+ | Task3 ![Task 3](Task-2/images/1.1.jpg)       
  | Task4 ![Task 4](Task-4/images/input.jpg)     | Screenshot ![Screenshot](Task-4/images/res.png) |
 
   ### *Reading task*
