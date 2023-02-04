@@ -2,8 +2,9 @@
 
 Tasks for Betasquirrel
 
-##First task
-# Tasks
+
+
+## Tasks
  |           Requirements            |  Output  |
 
 
@@ -56,3 +57,6 @@ Tasks for Betasquirrel
 - [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+
+
+## end
