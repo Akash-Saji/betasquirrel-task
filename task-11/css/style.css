@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(65, 33, 33);
+  margin: auto;
+  width: 100%;
+}
+#nbar {
+  background-color: rgb(100, 60, 117);
+  height: 80px;
+  width: auto;
+  margin-bottom: 6.9999px;
+  padding: 6px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  text-align: center;
+  margin-top: 32px;
+}
+.left img {
+  height: 60px;
+  float: left;
+  margin-top: 15px;
+}
+.left h2 {
+  color: rgb(209, 217, 232);
+  float: left;
+  margin-top: 36px;
+}
+.right a {
+  color: rgb(209, 217, 232);
+  text-decoration: none;
+  padding-right: 20px;
+}
+#main-co {
+  background-color: rgb(209, 217, 232);
+  height: 300px;
+  margin-bottom: 6.9999px;
+  overflow: hidden;
+  padding: 6px;
+}
+.boxes1 {
+  background-color: rgb(209, 217, 232);
+  height: 300px;
+  float: left;
+  width: 32%;
+  padding: 6px;
+}
+.boxes2 {
+  background-color: rgb(209, 217, 232);
+  height: 300px;
+  float: left;
+  width: 32%;
+  padding: 6px;
+}
+.boxes3 {
+  background-color: rgb(209, 217, 232);
+  height: 300px;
+  float: left;
+  width: 32%;
+  padding: 6px;
+}
+.boxes2 {
+  margin: 0% 0.7% 0.7%;
+}
+.boxes1 {
+  float: left;
+}
+.boxes3 {
+  float: right;
+}

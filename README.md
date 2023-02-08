@@ -2,18 +2,22 @@
 
 Tasks for Betasquirrel
 
-
-
 ## Tasks
- |           Requirements            |  Output  |
 
+### **task 1**
 
- | Task1 ![Task 1](Task-1/images/req1.jpg)      | Screenshot ![Screenshot](Task-1/images/Screenshot.png) |
- | Task2 ![Task 2](Task-2/images/req.jpg)       | Screenshot ![Screenshot](Task-2/images/Screenshot.png) |
- | Task3 ![Task 3](Task-2/images/1.1.jpg)       
- | Task4 ![Task 4](Task-4/images/input.jpg)     | Screenshot ![Screenshot](Task-4/images/res.png) |
+| Requirements                             | Output                                                  |
+| ---------------------------------------- | ------------------------------------------------------- |
+| Task1 ![Task 1](Task-1/images/req1.jpg)  | Screenshot ![Screenshot](Task-1/images/Screenshot.png)  |
 
-  ### *Reading task*
+### **task 2**
+
+| Requirements                            | Output                                                  |
+| --------------------------------------- | ------------------------------------------------------- |
+| Task2 ![Task 2](Task-2/images/req.jpg)  | Screenshot ![Screenshot](Task-2/images/Screenshot.png)  |
+
+### **task 3**
+
 - [HTML Basic](https://www.w3schools.com/html/default.asp)
 - [HTML Elements](https://www.w3schools.com/html/html_basic.asp)
 - [html Attributes](https://www.w3schools.com/html/html_attributes.asp)
@@ -29,22 +33,34 @@ Tasks for Betasquirrel
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 - [HTML Table Borders](https://www.w3schools.com/html/html_table_borders.asp)
 
- ### *Linux Commands*
-| Commands |                        | Example               |
-| -------- | ---------------------- | --------------------- |
-| `cd`     | Change currentdirectory | `cd Desktop`, `cd ..` |
-| `ls`     | List contents of a directory | `ls -a`          |
-| `pwd`    | Display current working directory | `pwd`       |
-| `cat`    | Display contentsof a file         | `cat README.md` |
- 
-### *Git Commands*
-| Commands |                                   | Example |
-| -------- | --------------------------------- | ------- |
-| 1. `git config` | Configure git user         | `git config --global user.name "username"` |
-| 2. `git clone` | Clone a remorte git repo to your local | `git clone https://github.com/Akash-Saji/betasquirrel-task.git` |
-| 3. `git add` | Add your file changes to git  | `git add .` |
-| 4. `git commit` | Commit changes to git | `git commit -m "internal commit"` |
-| 5. `git push` | Push your local commits to remote repo | `git push origin main` |
+### **task 4**
+
+| Requirements                              | Output                                           |
+| ----------------------------------------- | ------------------------------------------------ |
+| Task4 ![Task 4](Task-4/images/input.jpg)  | Screenshot ![Screenshot](Task-4/images/res.png)  |
+
+### _Linux Commands_
+
+| Commands |                                   | Example               |
+| -------- | --------------------------------- | --------------------- |
+| `cd`     | Change currentdirectory           | `cd Desktop`, `cd ..` |
+| `ls`     | List contents of a directory      | `ls -a`               |
+| `pwd`    | Display current working directory | `pwd`                 |
+| `cat`    | Display contentsof a file         | `cat README.md`       |
+| `mkdir`  | create new directories            | `mkdir newFolder`     |
+| `rmdir`  | remove directories                | `rmdir Foldername`    |
+| `clear`  | clear panel                       | `clear`               |
+
+### _Git Commands_
+
+| Commands        |                                                     | Example                                                     |
+| --------------- | --------------------------------------------------- | ----------------------------------------------------------- |
+| 1. `git config` | Configure git user                                  | `git config --global user.name "username"`                  |
+| 2. `git clone`  | Clone a remorte git repo to your local              | `git clone https://github.com/Akash-Saji/betasquirrel-task` |
+| 3. `git add`    | Add your file changes to git                        | `git add .`                                                 |
+| 4. `git commit` | Commit changes to git                               | `git commit -m "internal    commit"`                        |
+| 5. `git push`   | Push your local commits to remote repo              | `git push origin main`                                      |
+| 6. `git pull`   | fetch and download content from a remote repository | `git pull`                                                  |
 
 ### Task 5
 
@@ -58,5 +74,8 @@ Tasks for Betasquirrel
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
 
+### **Task 6**
+
+- my page[Click here](https://akash-saji.github.io/betasquirrel-task/)
 
 ## end
