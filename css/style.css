@@ -6,7 +6,6 @@ body {
   margin: 0 auto;
   height: 100vh;
 }
-
 #box {
   font-family: cursive, sans-serif;
   background-color: #ffffff;
@@ -18,7 +17,6 @@ body {
   width: calc(25%);
   height: calc(45%);
 }
-
 a {
   padding: 20px;
   line-height: 30px;

@@ -76,6 +76,6 @@ Tasks for Betasquirrel
 
 ### **Task 6**
 
-- my page[Click here](https://akash-saji.github.io/betasquirrel-task/)
+- my page [Click here](https://akash-saji.github.io/betasquirrel-task/)
 
 ## end
