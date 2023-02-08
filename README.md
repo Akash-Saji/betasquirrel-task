@@ -8,13 +8,13 @@ Tasks for Betasquirrel
 
 | Requirements                             | Output                                                  |
 | ---------------------------------------- | ------------------------------------------------------- |
-| Task1 ![Task 1](Task-1/images/req1.jpg)  | Screenshot ![Screenshot](Task-1/images/Screenshot.png)  |
+| Task1 ![Task 1](task-1/images/req1.jpg)  | Screenshot ![Screenshot](task-1/images/Screenshot.png)  |
 
 ### **task 2**
 
 | Requirements                            | Output                                                  |
 | --------------------------------------- | ------------------------------------------------------- |
-| Task2 ![Task 2](Task-2/images/req.jpg)  | Screenshot ![Screenshot](Task-2/images/Screenshot.png)  |
+| Task2 ![Task 2](task-2/images/req.jpg)  | Screenshot ![Screenshot](task-2/images/Screenshot.png)  |
 
 ### **task 3**
 
@@ -37,7 +37,7 @@ Tasks for Betasquirrel
 
 | Requirements                              | Output                                           |
 | ----------------------------------------- | ------------------------------------------------ |
-| Task4 ![Task 4](Task-4/images/input.jpg)  | Screenshot ![Screenshot](Task-4/images/res.png)  |
+| Task4 ![Task 4](task-4/images/input.jpg)  | Screenshot ![Screenshot](task-4/images/res.png)  |
 
 ### _Linux Commands_
 
