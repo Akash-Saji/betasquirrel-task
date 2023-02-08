@@ -1,7 +1,5 @@
 # betasquirrel-task
 
-Tasks for Betasquirrel
-
 ## Tasks
 
 ### **task 1**
@@ -62,7 +60,7 @@ Tasks for Betasquirrel
 | 5. `git push`   | Push your local commits to remote repo              | `git push origin main`                                      |
 | 6. `git pull`   | fetch and download content from a remote repository | `git pull`                                                  |
 
-### Task 5
+### **task 5**
 
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
