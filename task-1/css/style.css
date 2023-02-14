@@ -1,13 +1,13 @@
 body {
-  background-color: rgb(65, 33, 33);
+  background-color: rgb(51, 33, 33);
   margin: auto;
   width: 100%;
 }
 #nbar {
-  background-color: rgb(100, 60, 117);
+  background-color: rgb(84, 53, 97);
   height: 80px;
   width: auto;
-  margin-bottom: 6.9999px;
+  margin-bottom: 9.9999px;
   padding: 6px;
 }
 .left {
@@ -21,7 +21,7 @@ body {
 .left img {
   height: 60px;
   float: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .left h2 {
   color: rgb(209, 217, 232);
@@ -35,10 +35,10 @@ body {
 }
 #main-co {
   background-color: rgb(209, 217, 232);
-  height: 300px;
+  height: 250px;
   margin-bottom: 6.9999px;
   overflow: hidden;
-  padding: 6px;
+  padding: 25px;
 }
 .boxes1 {
   background-color: rgb(209, 217, 232);
@@ -46,6 +46,7 @@ body {
   float: left;
   width: 32%;
   padding: 6px;
+  padding-top: 5px;
 }
 .boxes2 {
   background-color: rgb(209, 217, 232);
@@ -53,6 +54,8 @@ body {
   float: left;
   width: 32%;
   padding: 6px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .boxes3 {
   background-color: rgb(209, 217, 232);
@@ -60,6 +63,7 @@ body {
   float: left;
   width: 32%;
   padding: 6px;
+  padding-top: 5px;
 }
 .boxes2 {
   margin: 0% 0.7% 0.7%;
@@ -69,4 +73,13 @@ body {
 }
 .boxes3 {
   float: right;
+}
+.boxes1 p {
+  padding-left: 5px;
+}
+.boxes2 p {
+  padding-left: 5px;
+}
+.boxes3 p {
+  padding-left: 5px;
 }
