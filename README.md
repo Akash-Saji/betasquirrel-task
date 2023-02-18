@@ -71,6 +71,7 @@
 - [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+- [HTML Table  Responsive](https://www.w3schools.com/css/css_table_responsive.asp)
 
 ### **Task 6**
 
