@@ -108,14 +108,14 @@ h1 {
 }
  #main-container
 {
-  height: 550px;
+  height: 600px;
 } 
 .tl a {
   font-size: small;
   padding:5px;
 }
 .tr h2 {
-  font-size:medium;
+  font-size:small;
   padding-top: 45px;
 }
 }
@@ -131,7 +131,7 @@ h1 {
  height: 550px;
 } 
 .tl a {
- font-size: small;
+ font-size: medium;
  padding:5px;
 }
 .tr h2 {
