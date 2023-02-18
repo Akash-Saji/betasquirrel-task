@@ -16,6 +16,7 @@ body {
   text-align: center;
   width: calc(25%);
   height: calc(45%);
+  padding-top: 50px;
 }
 a {
   padding: 20px;
@@ -36,4 +37,31 @@ a:hover {
   color: rgb(0, 255, 26);
   background-color: transparent;
   text-decoration: underline;
+}
+@media screen  and (max-width:600px) {
+  #box{
+    width: calc(45%);
+    height: calc(30%);
+    padding-top: 30px;
+  }
+  #box a{
+    font-size: small ;
+  }
+  #box h1 {
+    font-size: small;
+  }
+}                                 
+
+@media screen  and (min-width:600px) and (max-width:1100px){
+  #box{
+    width: calc(35%);
+    height: calc(25%);
+    padding-top: 50px;
+  }
+  #box a{
+    font-size: medium ;
+  }
+  #box h1 {
+    font-size: medium;
+  }
 }

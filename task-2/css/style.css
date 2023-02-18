@@ -1,6 +1,5 @@
 body {
   background-color: rgb(49, 26, 27);
-  height: 300px;
   margin: auto;
 }
 #navbar {
@@ -22,7 +21,7 @@ body {
 .boxone {
   background-color: rgb(218, 218, 218);
   border: 7px solid rgb(80, 162, 73);
-  height: 200px;
+  height: 260px;
 }
 h2 {
   text-decoration: underline black;
@@ -79,10 +78,10 @@ h1 {
 }
 .box2 {
   border: 25px solid rgb(187, 65, 62);
-  margin-top: 15px;
+   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; 
 }
 .tr h2 {
   text-decoration: none;
@@ -92,15 +91,47 @@ h1 {
   padding: 10px;
   padding-top: 30px;
 }
-
- @media screen and (min-width:1600px) {
-  .box21 , .box22 {
-    width: 22vw;
-    height: 19vh;
-    padding-right: 2vh;
+.box22, .box21 {
+  padding-left: 1em;
+  padding-right: 5px;
+}
+ @media only screen and (max-width:600px) {
+   .box21   {
+        width: calc(100vw - 210px );
+   }
+   .box22  {
+    width: calc(100vw - 210px );
+}
+ #main-container
+{
+  height: 800px;
+} 
+.tl a {
+  font-size: small;
+  padding:5px;
+}
+.tr h2 {
+  font-size:medium;
+  padding-top: 45px;
+}
+}
+@media only screen and (min-width:601px) and  (max-width:1000px) { 
+  .box21   {
+       width: calc(100vw - 210px );
   }
-  .boxone{
-    height: 225px;
-  } 
-
- }
+  .box22  {
+   width: calc(100vw - 210px );
+}
+#main-container
+{
+ height: 600px;
+} 
+.tl a {
+ font-size: small;
+ padding:5px;
+}
+.tr h2 {
+ font-size:medium;
+ padding-top: 45px;
+}
+}
