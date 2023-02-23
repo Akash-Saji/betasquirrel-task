@@ -1,0 +1,256 @@
+body {
+margin: auto;
+}
+.nr img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nmain , .nleft {
+    display: flex;
+    justify-content: space-between;
+}
+.dboard {
+    width: calc(10% - 2em);
+    padding: 2em;   
+}
+#form {
+     width: calc(60% - 2em); 
+    border: 5px;
+    float: right;
+    padding: .5em 1em 0 3em;
+    height: 900px;
+    border-left: 1px solid #959595;
+}
+#maind {
+    display: flex;
+}
+#fr{
+    float: right;
+    justify-content: space-between;
+    height: 100px;
+}
+#fl{
+    float: left;
+    justify-content: space-between;
+    height: 100px;
+}
+#cbox{
+    float: left;
+   width: 1000px;
+}
+span{
+    padding-right: 4px;
+}
+#cb , #sb {
+    align-items: center;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  width: 155px;
+  height: 45px;
+  margin: .5em;
+}
+#cb {
+    background-color: #f87560; 
+}
+#sb {
+    background-color: #3bb989;
+}
+#cb p ,#sb p {
+    color: #fff5ee;   
+}
+#fr label {
+    width: 300px;  
+}
+.nleft img {
+    height: 55px;
+    width: 40px;
+    padding: 1em;
+}
+.nbar {
+    padding-top: 10px;
+}
+.nbar p{
+    font-size: 20px;
+}
+.dboard p {
+    font-size: large;  
+}
+ .nmain   {
+    border-bottom: 1px solid #959595;
+}
+span{
+    color: red;
+}
+#fr {
+    padding-left: 7em;
+}
+.a1  ,.l  {
+    float: left;    
+ }
+ .a2 , .r2  {
+    float: right;     
+ }
+ span{
+    color: red;
+ }
+ input[type=text] , input[type=number] , input[type=email], .l2 {
+    width: 350px;
+     height: 37px;
+  }
+   .l2{
+    margin-bottom: 30px;
+   }
+   ::placeholder{
+    font-size: 15px;
+    padding-left: 15px;
+   }
+   .container {
+    padding-right:30px;
+
+   }
+#b {
+    float: right;
+    padding-top: 170px;
+    margin-right: -150px;
+}
+.r2{
+    padding-right: 170px;
+}
+  .l2  {
+    color:  #959595;
+}
+* p {
+    color: #4c4c4c;
+}
+.container {
+color: #4c4c4c;
+}
+textarea {
+ width: 550px;
+ height: 126px;       
+}
+   @media screen and (max-width:1000px) {
+    .dboard {
+display: none;
+    }
+    input[type=text] , input[type=number] , input[type=email], .l2 {
+        width: 250px;
+        height: 27px;
+    }    
+    .a1  ,.l  {
+        float: none; 
+     }
+    
+     .a2 , .r2  {
+        float: none;
+     }
+     #cbox{
+        float: none;
+        width: auto;
+     }
+     .container{
+        padding-right: 3px;
+     }
+     textarea {
+        height: 100px;
+        width: 200px;
+     }
+     #cb , #sb {
+        width: 80px;
+     }
+     #cb ,#sb {
+        margin-bottom: 5px;
+     }
+     #b {
+       
+     padding-top: 60px; 
+    
+     margin-right: -130px; 
+     }
+     #form{
+        padding-left: 1em;
+     }
+    }
+#cbox p , .r2 p , select.l2 , .a1 p ,.a2 p ,.l p ,.l2{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+label.r1 , label.c1
+{
+    color: #4c4c4c;
+}
+
+
+
+
+
+
+    
+    .nr img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    .nmain , .nleft {
+        display: flex;
+        justify-content: space-between;
+    }
+    #maind {
+        display: flex;
+    }
+    #maind {
+        display: flex;
+    }
+    .nmain {
+        border-bottom:  1px solid #969696;
+    }
+    .nleft img {
+        height: 65px;
+        width: 50px;
+        padding: 1em;
+    }
+    .nbar {
+        padding-top: 10px;
+    }
+    .nbar p{
+        font-size: 25px;
+    }
+    #ri {
+ float: left;
+ padding-top: 10px;
+    }
+    #cb1 {
+        float: right;
+        align-items: center;
+        background-color: #3bb989;
+        border: 0;
+        width: 141px;
+        height: 35px;
+    }
+    table, th, td {
+        border: 1px solid #7a7a7a;
+        border-collapse: collapse;
+        height: 50px;
+        width: calc(72vw);
+        color: #4c4c4c;
+      }
+      td { 
+    padding-left: 15px;
+      }
+      #bb{
+        display: flex;
+        justify-content: space-between;
+        width: calc(72vw);
+      }
+      #cb1 p {
+        color: aliceblue !important;
+      }
+      * p {
+        color:#4c4c4c;
+      }
+      @media screen and (min-width:1700px){
+        #form {width: calc(50% - 2em);
+      }
+    }
