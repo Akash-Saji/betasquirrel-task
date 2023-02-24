@@ -8,19 +8,19 @@ margin: auto;
 }
 .nmain , .nleft {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .dboard {
     width: calc(10% - 2em);
     padding: 2em;   
 }
+
 #form {
-     width: calc(60% - 2em); 
+     width: calc(55% - 2em); 
     border: 5px;
     float: right;
     padding: .5em 1em 0 3em;
     height: 900px;
-    border-left: 1px solid #959595;
 }
 #maind {
     display: flex;
@@ -145,10 +145,7 @@ display: none;
     
      .a2 , .r2  {
         float: none;
-     }
-     #cbox{
-        float: none;
-        width: auto;
+        padding:0%;
      }
      .container{
         padding-right: 3px;
@@ -172,6 +169,9 @@ display: none;
      #form{
         padding-left: 1em;
      }
+     #cbox{
+        width:auto;
+    }
     }
 #cbox p , .r2 p , select.l2 , .a1 p ,.a2 p ,.l p ,.l2{
     margin-bottom:10px;
@@ -218,7 +218,7 @@ label.r1 , label.c1
         font-size: 25px;
     }
     #ri {
- float: left;
+ float: left; 
  padding-top: 10px;
     }
     #cb1 {
@@ -229,20 +229,15 @@ label.r1 , label.c1
         width: 141px;
         height: 35px;
     }
-    table, th, td {
+     table, th, td {
         border: 1px solid #7a7a7a;
         border-collapse: collapse;
-        height: 50px;
-        width: calc(72vw);
         color: #4c4c4c;
       }
-      td { 
-    padding-left: 15px;
-      }
+    
       #bb{
         display: flex;
         justify-content: space-between;
-        width: calc(72vw);
       }
       #cb1 p {
         color: aliceblue !important;
@@ -250,7 +245,40 @@ label.r1 , label.c1
       * p {
         color:#4c4c4c;
       }
-      @media screen and (min-width:1700px){
-        #form {width: calc(50% - 2em);
+      table, th, td {
+        border: 1px solid #787878;
+        border-collapse: collapse;
+        color: #787878;
       }
+      th, td {
+        height: 50px;
+        text-align: center;
+      }
+      table{
+        width: 100%;
+      }
+      #cb1 {
+        float: right;
+        align-items: center;
+        background-color: #3bb989;
+        border: 0;
+        width: 141px;
+        height: 35px;
     }
+    #bb{
+    display: flex;
+    justify-content: space-between;
+    }
+    #pp {
+        padding-top: 10px;
+        color: #787878;
+    }
+    #tbbox{
+        padding: 1em;
+        width: 100%;
+    }
+    .dboard{
+        border-right: 1px solid #787878;
+        height: 100vh;
+    }
+    
