@@ -1,22 +1,33 @@
 body {
-  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   height: 100vh;
+  background-color: rgb(255, 255, 255);
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(0, 0, 0);}
+  10%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  90% {background-color: green;}
+  100%   {background-color: rgb(0, 0, 0);}
 }
 #box {
   font-family: cursive, sans-serif;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  color: transparent;
   padding: 10px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 20px 23px #242222;
+  border: 1px solid black;
   text-align: center;
-  width: calc(25%);
-  height: calc(45%);
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+#box h1 {
+  color: #000000;
 }
 a {
   padding: 20px;
@@ -38,30 +49,9 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-@media screen  and (max-width:600px) {
-  #box{
-    width: calc(45%);
-    height: calc(30%);
-    padding-top: 30px;
-  }
-  #box a{
-    font-size: small ;
-  }
-  #box h1 {
-    font-size: small;
-  }
-}                                 
-
-@media screen  and (min-width:600px) and (max-width:1100px){
-  #box{
-    width: calc(35%);
-    height: calc(25%);
-    padding-top: 50px;
-  }
-  #box a{
-    font-size: medium ;
-  }
-  #box h1 {
+ @media only screen  and  (max-width:1000px){
+  #box h1{
     font-size: medium;
+    
   }
-}
+ }
