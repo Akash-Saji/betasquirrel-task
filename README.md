@@ -36,6 +36,7 @@
 | Requirements                              | Output                                           |
 | ----------------------------------------- | ------------------------------------------------ |
 | Task4 ![Task 4](task-4/images/input.jpg)  | Screenshot ![Screenshot](task-4/images/res.png)  |
+                
 
 ### _Linux Commands_
 
@@ -80,3 +81,10 @@
 - linkedin account [Click here](https://www.linkedin.com/in/akash-saji-358204266) 
 
 ## end
+| Output                                           |
+ | ------------------------------------------------ |
+ | pdf  ![pdf file ](./pdf/Board.pdf)                 |
+ | pdf ![pdf file] ()|
+ [embed]pdf/Board.pdf[/embed]
+[Download the PDF file](./pdf/Board.pdf)
+| ![PDF file](./pdf/Board.pdf "PDF file") |

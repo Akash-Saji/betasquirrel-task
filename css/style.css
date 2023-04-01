@@ -18,7 +18,7 @@ body {
 }
 #box {
   font-family: cursive, sans-serif;
-  color: transparent;
+  color: transparent; 
   padding: 10px;
   border: 1px solid black;
   text-align: center;
