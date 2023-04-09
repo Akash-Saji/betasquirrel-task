@@ -15,6 +15,11 @@ body {
   width: calc(10% - 2em);
   padding: 2em;
 }
+.dboard1 {
+  padding: 2em;
+    border-right: 1px solid #787878;
+    height: 100vh;
+}
 
 #form {
   width: calc(55% - 2em);
@@ -139,7 +144,14 @@ textarea {
   height: 126px;
 }
 @media screen and (max-width: 1000px) {
+  
+  #pmain{
+    font-size: small;
+  }
   .dboard {
+    display: none;
+  }
+  .dboard1 {
     display: none;
   }
   input[type="text"],
@@ -299,4 +311,10 @@ table {
 .dboard {
   border-right: 1px solid #787878;
   height: 100vh;
+}
+.fa-regular.fa-user , .fa-solid.fa-user-tie , .fa-solid.fa-book-open {
+  padding-top: 1px;
+   padding-right: 10px;
+   color: #787878;
+   float: left;
 }

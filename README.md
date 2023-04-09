@@ -80,11 +80,10 @@
 - stack overflow account [Click here](https://stackoverflow.com/users/21205553/akash-saji)
 - linkedin account [Click here](https://www.linkedin.com/in/akash-saji-358204266) 
 
+### **Task 7**
+
+| PC view indexpage          | pc view student page       | index page mobile view    |student page mobile view   |
+| -------------------------- | -------------------------- | ------------------------- |-------------------------- |
+| ![task 7](task-7/images/22.png) | ![Task 7](task-7/images/11.png) | ![task 7](task-7/images/33.png) | ![Task 7](task-7/images/44.png) |
+
 ## end
-| Output                                           |
- | ------------------------------------------------ |
- | pdf  ![pdf file ](./pdf/Board.pdf)                 |
- | pdf ![pdf file] ()|
- [embed]pdf/Board.pdf[/embed]
-[Download the PDF file](./pdf/Board.pdf)
-| ![PDF file](./pdf/Board.pdf "PDF file") |
