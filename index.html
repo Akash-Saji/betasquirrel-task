@@ -1,22 +1,784 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="box">
-      <h1>Betasquirrel Tasks</h1>
-      <p><a href="task-1/index.html">Task 1</a></p>
-      <p><a href="task-2/index.html">Task 2</a></p>
-      <p><a href="task-4/index.html">Task 4</a></p>
-      <p><a href="task-7/index.html">Task 7</a></p>
-      <p><a href="https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?page-id=0%3A1&node-id=100%3A2&viewport=578%2C343%2C0.06&scaling=scale-down&starting-point-node-id=100%3A2">Task 8</a></p>
-      <p><a href="https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?page-id=135%3A15&node-id=135%3A16&viewport=511%2C357%2C0.25&scaling=scale-down&starting-point-node-id=135%3A16">Task 9</a></p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+  <center><font color="#27FBFF"><h2>ACTIVAT ACCESS</h2><input type="text" name="accessCode" placeholder="Enter Your AccessCode">
+    <input type="text" id="service" name="service" placeholder="Enter Service Name" style="display: none;">
+    
+    <select onchange="if(this.value==&quot;custom&quot;){document.getElementById(&quot;serb&quot;).setAttribute(&quot;name&quot;,&quot;no&quot;);document.getElementById(&quot;service&quot;).style.display=&quot;block&quot;;}else{document.getElementById(&quot;service&quot;).style.display=&quot;none&quot;;document.getElementById(&quot;service&quot;).setAttribute(&quot;name&quot;,&quot;no&quot;);}" name="service" id="serb" class="select select2-hidden-accessible" tabindex="-1" aria-hidden="true" data-select2-id="select2-data-serb">
+     <option value="" data-select2-id="select2-data-213-j1vw">Select Service
+    </option><option value="Others:3" data-select2-id="select2-data-217-o683">Any other [6]
+    
+    </option><option value="Dealshare:3" data-select2-id="select2-data-218-t8ld">Dealshare [6]
+    
+    </option><option value="Amazon:3" data-select2-id="select2-data-219-3lpq">Amazon [9] 
+    
+    </option><option value="Winzo:3" data-select2-id="select2-data-220-9a53">Winzo [5]
+    
+    </option><option value="Cockfight:1" data-select2-id="select2-data-221-fr2b">Cockfight [6]
+    
+    </option><option value="Dream11:1" data-select2-id="select2-data-222-bt75">Dream11 [6]
+    
+    </option><option value="Freecharge:1" data-select2-id="select2-data-223-6ejo">Freecharge [6] 
+    
+    </option><option value="Indiagold:1" data-select2-id="select2-data-224-y0w4">Indiagold [6.5]
+    
+    </option><option value="Nobroker:1" data-select2-id="select2-data-225-04kl">Nobroker [6.5]
+    
+    </option><option value="Siply:1" data-select2-id="select2-data-226-49cj">Siply [6]
+    
+    </option><option value="Uber:1" data-select2-id="select2-data-227-wgt9">Uber [6.5]
+    
+    </option><option value="Swiggy:3" data-select2-id="select2-data-228-rn1b">Swiggy [6.5]
+    
+    </option><option value="MPL:3" data-select2-id="select2-data-229-nw1c">MPL [6]
+    
+    </option><option value="OYO:3" data-select2-id="select2-data-230-xmwv">OYO [6]
+    
+    </option><option value="Ludo_Ninja:3" data-select2-id="select2-data-231-4hih">Ludo Ninja [5.5]
+    
+    </option><option value="Payzapp:3" data-select2-id="select2-data-232-i11y">Payzapp [6.5]
+    
+    </option><option value="Unacademy:3" data-select2-id="select2-data-233-olwv">Unacademy [6]
+    
+    </option><option value="1xbet:3" data-select2-id="select2-data-234-avyc">1xbet [6]
+    
+    </option><option value="Rummy_Gold:3" data-select2-id="select2-data-235-il0n">Rummy Gold [6]
+    
+    </option><option value="Mega:3" data-select2-id="select2-data-236-osea">Mega [6]
+    
+    </option><option value="Akudo:3" data-select2-id="select2-data-237-puj4">Akudo [6]
+    
+    </option><option value="Ludo-Supreme-Gold:3" data-select2-id="select2-data-238-gt27">Ludo Supreme Gold [6]
+    
+    </option><option value="Probo:3" data-select2-id="select2-data-239-69dw">Probo [6]
+    
+    </option><option value="Gmng:3" data-select2-id="select2-data-240-qyvy">Gmng [6]
+    
+    </option><option value="Bajaj_Finance:3" data-select2-id="select2-data-241-r6j3">Bajaj Finance [6.5]
+    
+    </option><option value="Fiewin:3" data-select2-id="select2-data-242-x9ax">Fiewin [6.5]
+    
+    </option><option value="Lakme:3" data-select2-id="select2-data-243-az73">Lakme [6]
+    
+    </option><option value="Ace2Three:3" data-select2-id="select2-data-244-z9w0">Ace2Three [6]
+    
+    </option><option value="Discord:3" data-select2-id="select2-data-245-567q">Discord [6]
+    
+    </option><option value="Flam:3" data-select2-id="select2-data-246-qjv0">Flam [6]
+    
+    </option><option value="IndiaPlays:3" data-select2-id="select2-data-247-xria">IndiaPlays [7]
+    
+    </option><option value="Gamezy:3" data-select2-id="select2-data-248-ry4z">Gamezy [6.5]
+    
+    </option><option value="Google:3" data-select2-id="select2-data-249-at78">Google [6.5]
+    
+    </option><option value="BigBazaar:3" data-select2-id="select2-data-250-qtci">BigBazaar [6.5]
+    
+    </option><option value="SkillClash:3" data-select2-id="select2-data-251-wvaj">SkillClash [6.5]
+    
+    </option><option value="Airtel:1" data-select2-id="select2-data-252-c68i">Airtel [8]
+    
+    </option><option value="Joymall:3" data-select2-id="select2-data-253-fq29">Joymall [7]
+    
+    </option><option value="BigCash:3" data-select2-id="select2-data-254-t0yo">Big Cash [6.5]
+    
+    </option><option value="PharmEasy:3" data-select2-id="select2-data-255-cscs">PharmEasy [6.5]
+    
+    </option><option value="My_Jar:3" data-select2-id="select2-data-256-elmk">My Jar  [6]
+    
+    </option><option value="Snakes_and_Ladder:3" data-select2-id="select2-data-257-q0ly">Snakes and Ladder [6]
+    
+    </option><option value="Pocket52:3" data-select2-id="select2-data-258-3mkt">Pocket52 [6.5]
+    
+    </option><option value="Tinder:3" data-select2-id="select2-data-259-kbqq">Tinder [6]
+    
+    </option><option value="Royalwin:3" data-select2-id="select2-data-260-s017">Royalwin [6]
+    
+    </option><option value="RummyCircle:3" data-select2-id="select2-data-261-odrx">RummyCircle [6.5]
+    
+    </option><option value="Mantrimall:3" data-select2-id="select2-data-262-lftu">Mantrimall [7.5]
+    
+    </option><option value="KhelRaja:3" data-select2-id="select2-data-263-m6v2">KhelRaja [6.5]
+    
+    </option><option value="CoinSwitch_Kuber:3" data-select2-id="select2-data-264-joet">CoinSwitch Kuber [6]
+    
+    </option><option value="PhonePe:3" data-select2-id="select2-data-265-ktd2">PhonePe [7.5]
+    
+    </option><option value="Fiegame:3" data-select2-id="select2-data-266-ouuu">Fiegame [6]
+    
+    </option><option value="PokerSaint:3" data-select2-id="select2-data-267-whuh">PokerSaint [7]
+    
+    </option><option value="TwelfthMan:3" data-select2-id="select2-data-268-rh46">TwelfthMan [6]
+    
+    </option><option value="Shoppe:3" data-select2-id="select2-data-269-i4ou">Shoppe [6]
+    
+    </option><option value="coindcx:3" data-select2-id="select2-data-270-lex8">coindcx [6]
+    
+    </option><option value="Loco:3" data-select2-id="select2-data-271-t6a0">loco [6]
+    
+    </option><option value="Rush:3" data-select2-id="select2-data-272-xfyf">Rush [6]
+    
+    </option><option value="IRCTC:3" data-select2-id="select2-data-273-znhd">IRCTC [6]
+    
+    </option><option value="Tradex:1" data-select2-id="select2-data-274-kn79">Tradex [6]
+    
+    </option><option value="Cadbury_Perk:3" data-select2-id="select2-data-275-9gh8">Cadbury Perk [6]
+    
+    </option><option value="Flipkart:3" data-select2-id="select2-data-276-twww">Flipkart [6.5]
+    
+    </option><option value="LocoGG:3" data-select2-id="select2-data-277-w798">LocoGG [6]
+    
+    </option><option value="Twitter:1" data-select2-id="select2-data-278-l2a5">Twitter [6]
+    
+    </option><option value="Adda52:3" data-select2-id="select2-data-279-4tbk">Adda52 [6.5]
+    
+    </option><option value="Supra:1" data-select2-id="select2-data-280-1n8t">Supra [6]
+    
+    </option><option value="Jiomart:3" data-select2-id="select2-data-281-7hen">Jiomart [5.5]
+    
+    </option><option value="Royale11:1" data-select2-id="select2-data-282-3ydj">Royale11 [6]
+    
+    </option><option value="JungleeRummy:3" data-select2-id="select2-data-283-uq5l">JungleeRummy [6.5]
+    
+    </option><option value="SpartanPoker:3" data-select2-id="select2-data-284-2aim">SpartanPoker [6.5]
+    
+    </option><option value="Grofers:3" data-select2-id="select2-data-285-k42g">Grofers [6]
+    
+    </option><option value="Phable:3" data-select2-id="select2-data-286-tk8h">Phable [6.5]
+    
+    </option><option value="EarnEasy:3" data-select2-id="select2-data-287-ehsi">EarnEasy [6.5]
+    
+    </option><option value="Unocoin:3" data-select2-id="select2-data-288-t3aq">Unocoin [6.5]
+    
+    </option><option value="Yahoo:3" data-select2-id="select2-data-289-6wve">Yahoo [6]
+    
+    </option><option value="ClassicRummy:3" data-select2-id="select2-data-290-vvel">ClassicRummy [6]
+    
+    </option><option value="LazyPay:3" data-select2-id="select2-data-291-o6fj">LazyPay [6]
+    
+    </option><option value="TeenPattiJoy:3" data-select2-id="select2-data-292-28e1">TeenPattiJoy [6]
+    
+    </option><option value="Mewt:2" data-select2-id="select2-data-293-csdn">Mewt [6.5]
+    
+    </option><option value="MobiKwik:3" data-select2-id="select2-data-294-jv05">MobiKwik [8]
+    
+    </option><option value="BetVet:3" data-select2-id="select2-data-295-h9r1">BetVet [6]
+    
+    </option><option value="Junio:3" data-select2-id="select2-data-296-vf1s">Junio [6.5]
+    
+    </option><option value="Shopsy:3" data-select2-id="select2-data-297-qnu9">Shopsy [6.5]
+    
+    </option><option value="RummyTime:3" data-select2-id="select2-data-298-zsw7">RummyTime [6]
+    
+    </option><option value="MediBuddy:3" data-select2-id="select2-data-299-ummc">MediBuddy  [6]
+    
+    </option><option value="SamsungShop:3" data-select2-id="select2-data-300-nktq">SamsungShop [6]
+    </option><option value="whatsap:1" data-select2-id="select2-data-301-ayrq">WhatsApp [14]
+    
+    </option><option value="Rummy666:1" data-select2-id="select2-data-302-yweq">Rummy666 [6.5]
+    
+    </option><option value="Better:3" data-select2-id="select2-data-303-jkmv">Better [6]
+    
+    </option><option value="Kotak811:1" data-select2-id="select2-data-304-j8qp">Kotak811 [8]
+    
+    </option><option value="Rummy_East:3" data-select2-id="select2-data-305-oqjc">Rummy East [6]
+    
+    </option><option value="Fampay:3" data-select2-id="select2-data-306-rnth">Fampay [6.5]
+    
+    </option><option value="SherBazaar:3" data-select2-id="select2-data-307-p5nl">SherBazaar [7.5]
+    
+    </option><option value="GalaxyWin:3" data-select2-id="select2-data-308-97zb">GalaxyWin [8]
+    
+    </option><option value="CryptoWire:2" data-select2-id="select2-data-309-7zrz">CryptoWire [7.5]
+    
+    </option><option value="Magicpin:3" data-select2-id="select2-data-310-jxwz">Magicpin [6.5]
+    
+    </option><option value="IplWin:3" data-select2-id="select2-data-311-osd9">IplWin [6.5]
+    
+    </option><option value="SboOtp:3" data-select2-id="select2-data-312-h9eu">SboOtp [6.5]
+    
+    </option><option value="Kisma:3" data-select2-id="select2-data-313-yewo">Kisma [6.5]
+    
+    </option><option value="Swacch_City_Solution:3" data-select2-id="select2-data-314-k2x0">Swacch City Solution [6.5]
+    
+    </option><option value="Congress_Party_Membership:3" data-select2-id="select2-data-315-ahnb">Congress Party Membership [5.5]
+    
+    </option><option value="Howzat:3" data-select2-id="select2-data-316-9tb4">Howzat [6]
+    
+    </option><option value="ludo2" data-select2-id="select2-data-317-0hri">Ludo empire [6]
+    
+    </option><option value="Teenpatti_Bindaas:3" data-select2-id="select2-data-318-xalv">Teenpatti Bindaas [6]
+    
+    </option><option value="Lg88:3" data-select2-id="select2-data-319-zc85">Lg88 [6]
+    
+    </option><option value="PlayerzPot:3" data-select2-id="select2-data-320-gzld">PlayerzPot [6]
+    
+    </option><option value="My11Circle:2" data-select2-id="select2-data-321-r7pn">My11Circle [6]
+    
+    </option><option value="Rapido:3" data-select2-id="select2-data-322-5fhd">Rapido [6.5]
+    
+    </option><option value="Olacabs:3" data-select2-id="select2-data-323-ueut">Olacabs [6.5]
+    
+    </option><option value="Sikka:3" data-select2-id="select2-data-324-x5zy">Sikka [6.5]
+    
+    </option><option value="Royal_Rummy:3" data-select2-id="select2-data-325-hqea">Royal Rummy [6.5]
+    
+    </option><option value="Playship:3" data-select2-id="select2-data-326-gmj8">Playship [6.5]
+    
+    </option><option value="Fan2Play:3" data-select2-id="select2-data-327-6jku">Fan2Play [6]
+    
+    </option><option value="VSCRIC:3" data-select2-id="select2-data-328-zs95">VSCRIC [6]
+    
+    </option><option value="Rummy_Noble:3" data-select2-id="select2-data-329-ywil">Rummy Noble [6]
+    
+    </option><option value="Wizely:3" data-select2-id="select2-data-330-8m6k">Wizely [6.5]
+    
+    </option><option value="Microsoft:3" data-select2-id="select2-data-331-79uf">Microsoft [6.5]
+    
+    </option><option value="Swagbucks:8" data-select2-id="select2-data-332-nfqo">Swagbucks [6.5]
+    
+    </option><option value="MyTeam11:8" data-select2-id="select2-data-333-mbtg">MyTeam11 [6.5]
+    
+    </option><option value="Apollo:8" data-select2-id="select2-data-334-mxv3">Apollo [6.5]
+    
+    </option><option value="Khel_Play_Rummy:3" data-select2-id="select2-data-335-5tuo">Khel Play Rummy [6.5]
+    
+    </option><option value="Rummy_Wealth:8" data-select2-id="select2-data-336-qe2b">Rummy Wealth [6.5]
+    
+    </option><option value="Tata_Neu:8" data-select2-id="select2-data-337-733b">Tata Neu [7]
+    
+    </option><option value="Rummy_Loot:8" data-select2-id="select2-data-338-zfrm">Rummy Loot [6.5]
+    
+    </option><option value="Exchange22:8" data-select2-id="select2-data-339-3l6o">Exchange22 [6.5]
+    
+    </option><option value="Frizza:8" data-select2-id="select2-data-340-83wz">Frizza [6.5]
+    
+    </option><option value="Byjus:8" data-select2-id="select2-data-341-4xwi">Byjus [6.5]
+    
+    </option><option value="Teenpatti Baaz:3" data-select2-id="select2-data-342-641g">Teenpatti Baaz [6.5]
+    
+    </option><option value="Aio_Games:8" data-select2-id="select2-data-343-mxob">Aio Games [6.5]
+    
+    </option><option value="Zeb_Pay:3" data-select2-id="select2-data-344-9139">Zeb Pay [6]
+    
+    </option><option value="SportFairFantasy:8" data-select2-id="select2-data-345-0p0j">SportFairFantasy [6.5]
+    
+    </option><option value="Mgamer:3" data-select2-id="select2-data-346-agki">Mgamer [6.5]
+    
+    </option><option value="FairPlay_Fantasy:3" data-select2-id="select2-data-347-s9d2">FairPlay Fantasy [6]
+    
+    </option><option value="Dunzo:3" data-select2-id="select2-data-348-d0eh">Dunzo [6]
+    
+    </option><option value="Lyft:3" data-select2-id="select2-data-349-0nke">Lyft [6]
+    
+    </option><option value="LoveVocal:8" data-select2-id="select2-data-350-46jw">LoveVocal [6.5]
+    
+    </option><option value="Meesho:8" data-select2-id="select2-data-351-bysp">Meesho [6.5]
+    
+    </option><option value="Zepto:8" data-select2-id="select2-data-352-uryh">Zepto [6.5]
+    
+    </option><option value="1K_Kirana:8" data-select2-id="select2-data-353-mo8h">1K Kirana [6]
+    
+    </option><option value="1mg:8" data-select2-id="select2-data-354-yx6r">1mg [5.5]
+    
+    </option><option value="Rummy_ola:3" data-select2-id="select2-data-355-03bq">Rummy ola [6]
+    
+    </option><option value="PopBazaar:3" data-select2-id="select2-data-356-du77">PopBazaar [6]
+    
+    </option><option value="Zupee:3" data-select2-id="select2-data-357-8nra">Zupee [6]
+    
+    </option><option value="Magicbricks:3" data-select2-id="select2-data-358-szyj">Magicbricks [6]
+    
+    </option><option value="SRGame:3" data-select2-id="select2-data-359-l4i1">SRGame [6]
+    
+    </option><option value="Cashfly:3" data-select2-id="select2-data-360-k6nf">Cashfly [6.5]
+    
+    </option><option value="Porbet:3" data-select2-id="select2-data-361-cpx8">Porbet [6.5]
+    
+    </option><option value="ParkPlus:3" data-select2-id="select2-data-362-zpk5">ParkPlus [6.5]
+    
+    </option><option value="Hobi_Games:8" data-select2-id="select2-data-363-82e0">Hobi Games [6.5]
+    
+    </option><option value="Teenpatti_Classic:8" data-select2-id="select2-data-364-plil">Teenpatti Classic [6.5]
+    
+    </option><option value="Crex11:8" data-select2-id="select2-data-365-txsn">Crex11 [6.5]
+    
+    </option><option value="Money_Control:8" data-select2-id="select2-data-366-rhns">Money Control [6.5]
+    
+    </option><option value="Super365:8" data-select2-id="select2-data-367-lnd8">Super365 [7]
+    
+    </option><option value="MakeMyTrip:8" data-select2-id="select2-data-368-xh1l">MakeMyTrip [7]
+    
+    </option><option value="Super365aa:3" data-select2-id="select2-data-369-c88t">Super365aa [6]
+    
+    </option><option value="Mall91:8" data-select2-id="select2-data-370-0l4e">Mall91 [6.5]
+    
+    </option><option value="Purple:8" data-select2-id="select2-data-371-3lwl">Purple [6.5]
+    
+    </option><option value="Nurture_Farm:3" data-select2-id="select2-data-372-spdv">Nurture Farm [7]
+    
+    </option><option value="Rummy_Birkin:3" data-select2-id="select2-data-373-u715">Rummy Birkin [6]
+    
+    </option><option value="Rummy_Apna:3" data-select2-id="select2-data-374-ejjj">Rummy Apna [6.5]
+    
+    </option><option value="Brilix:3" data-select2-id="select2-data-375-4jjg">Brilix [6]
+    
+    </option><option value="Fun88:3" data-select2-id="select2-data-376-31p3">Fun88 [6]
+    
+    </option><option value="Metamet:3" data-select2-id="select2-data-377-it2x">Metamet [6.5]
+    
+    </option><option value="Kissan:3" data-select2-id="select2-data-378-sxi6">Kissan [6.5]
+    
+    </option><option value="Aayu:3" data-select2-id="select2-data-379-0vfk">Aayu [6.5]
+    
+    </option><option value="Truemeds:3" data-select2-id="select2-data-380-zgge">Truemeds [6]
+    
+    </option><option value="Richme:3" data-select2-id="select2-data-381-ek28">Richme [5.5]
+    
+    </option><option value="Kenko:3" data-select2-id="select2-data-382-qyif">Kenko [6]
+    
+    </option><option value="Citymall:3" data-select2-id="select2-data-383-505k">Citymall [6]
+    
+    </option><option value="EGold:3" data-select2-id="select2-data-384-3ljj">EGold [6]
+    
+    </option><option value="Parimatch:3" data-select2-id="select2-data-385-2g0t">Parimatch [6.5]
+    
+    </option><option value="GlowRoad:8" data-select2-id="select2-data-386-m1hx">GlowRoad [6.5]
+    
+    </option><option value="Holy_Rummy:3" data-select2-id="select2-data-387-r1ro">Holy Rummy [6.5]
+    </option><option value="TeenPatt:1" data-select2-id="select2-data-388-bwre">Teen Patti live [6]
+    
+    </option><option value="Fanclash:8" data-select2-id="select2-data-389-z4ks">Fanclash [6.5]
+    
+    </option><option value="Koo:8" data-select2-id="select2-data-390-spek">Koo [6.5]
+    
+    </option><option value="Elite_Ludo:8" data-select2-id="select2-data-391-tg3n">Elite Ludo [6.5]
+    
+    </option><option value="Licious:3" data-select2-id="select2-data-392-fcn3">Licious [6.5]
+    
+    </option><option value="Azure:3" data-select2-id="select2-data-393-jnch">Azure [6.5]
+    
+    </option><option value="Goodworker:3" data-select2-id="select2-data-394-7908">Goodworker [6]
+    
+    </option><option value="Zingbus:3" data-select2-id="select2-data-395-smh1">Zingbus [6]
+    
+    </option><option value="Nykka:3" data-select2-id="select2-data-396-ounx">Nykka [6]
+    
+    </option><option value="LinkedIN:3" data-select2-id="select2-data-397-c06t">LinkedIN [6]
+    
+    </option><option value="Telegram:3" data-select2-id="select2-data-398-t38a">Telegram [9]
+    
+    </option><option value="Aspiration:8" data-select2-id="select2-data-399-0egd">Aspiration [6]
+    
+    </option><option value="White hat junior:8" data-select2-id="select2-data-400-bp6c">White hat junior [6]
+    
+    </option><option value="Jar-6:8" data-select2-id="select2-data-401-tpqn">Jar 6 [6]
+    
+    </option><option value="Fit.Credit:3" data-select2-id="select2-data-402-h4ry">Fit Credit [6.5]
+    
+    </option><option value="Yoswin:8" data-select2-id="select2-data-403-6om5">Yoswin [6.5]
+    
+    </option><option value="Myntra:8" data-select2-id="select2-data-404-rplg">Myntra [6.5]
+    
+    </option><option value="Limeroad:3" data-select2-id="select2-data-405-0ry8">Limeroad [6.5]
+    
+    </option><option value="Otipy:8" data-select2-id="select2-data-406-c8jd">Otipy [6]
+    
+    </option><option value="Rewardtask:8" data-select2-id="select2-data-407-qfn5">  Rewardtask  [6]
+    
+    </option><option value="Dhani:7" data-select2-id="select2-data-408-lf8o">Dhani  [6.5]
+    
+    </option><option value=" OLX:6" data-select2-id="select2-data-409-0wsr">OLX    [7]
+    
+    </option><option value="angel one:5" data-select2-id="select2-data-410-jlmd"> Angel one  [7.5]
+    
+    </option><option value="whre:4" data-select2-id="select2-data-411-n2zd"> Taurus [6.5]
+    
+    </option><option value="royally:8" data-select2-id="select2-data-412-g5og"> Royally Rummy [7]
+    
+    </option><option value=" Rummy nobob:6" data-select2-id="select2-data-413-3b0m"> Rummy nobob [6.5]
+    
+    </option><option value="ludo gaints:5" data-select2-id="select2-data-414-xg5d"> Ludo Gaints [6]
+    
+    </option><option value=" Q jobs:4" data-select2-id="select2-data-415-mwi1"> Q jobs  [6]
+    
+    </option><option value=" Tradex:6" data-select2-id="select2-data-416-3ejk"> Tradex  [6.5]
+    
+    </option><option value=" fimmer:5" data-select2-id="select2-data-417-nvs1"> Fimmer [6]
+    
+    </option><option value=" a23:4" data-select2-id="select2-data-418-0ekf"> a23  [5]
+    
+    </option><option value="frenzi:7" data-select2-id="select2-data-419-0tnr"> Frenzi [6.5]
+    
+    </option><option value="aadar:6" data-select2-id="select2-data-420-ux6a"> Aadar [8]
+    
+    </option><option value="airtel:3" data-select2-id="select2-data-421-plyu"> Airtel Thanks [7.5]
+    
+    </option><option value="sika:7" data-select2-id="select2-data-422-rgti"> Sikka  [6]
+    
+    </option><option value="bank:5" data-select2-id="select2-data-423-d032"> Bank  [8]
+    
+    </option><option value="Rummy gell:8" data-select2-id="select2-data-424-1h3g"> Rummy Gell  [6]
+    
+    </option><option value="zomato:6" data-select2-id="select2-data-425-i3kd"> Zomato  [7]
+    
+    
+    </option></select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="select2-data-212-bg9x" style="width: 68%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-serb-container" aria-controls="select2-serb-container"><span class="select2-selection__rendered" id="select2-serb-container" role="textbox" aria-readonly="true" title="Select Service
+    ">
+    </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><br>
+    
+    <br>
+    <button onclick="button0()" type="submit" style="transition: 0.5s;
+    width: auto;
+    background-color: 4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+     background-color:blue; height: 47px; width: 95px">SUBMIT</button>
+    
+    <script>
+      
+    function button0() {
+      alert("Please Enter A Valid Access Code");
+    }
+    </script></font></center>
+
+
+
+
+
+
+
+<hr>
+<hr>
+
+<div class="txn"><center><font color="black"> 
+  BALLANCE :       00</center></div><input type="text" name="mynum" id="mynum" readonly="readonly"><button onclick="ban()" type="submit" style="background-color:green; height:40px; width:70px">Next</button> <button onclick="Hello()" type="submit" style="background-color:green; height:40px; width:70px">Copy</button>  <div style="justify-content: space-around; display: flex;"> <button onclick="newnum()" type="submit" id="nextbtn" style="background-color:green; heaght:40px; width:70px ">Ban</button></div>
+
+  
+
+
+
+  <input type="text" name="mynum" id="mynum" readonly="readonly" style="width: 90%; height: 150px;">
+
+  <div style="justify-content: space-around; display: flex;"> <button onclick="newnum()" type="submit" id="nextbtn" style="background-color:green; heaght:40px; width:70px; padding-right: 60px;">Resend</button></div>
+
+
+
+<hr>
+<hr>
+<font color="#27FBFF"><h2>BUY ACCESS CODE</h2></font><h2><font color="#27FBFF"></font><div>
+    <input type="text" name="tid" placeholder="Enter Txn/UTR Number">
+    <input id="ocode" type="text" name="ocode" placeholder="Enter Old AccessCode" style="display: none;">
+    <select onchange="vis()" name="what" id="what">
+    <option value="new">Get New Code
+    </option><option value="old">Recharge Old Code
+    </option></select>
+    
+    <br><button onclick="button2()" type="submit" style=" background-color:blue; height: 50px; width: 100px">SUBMIT</button>
+    
+    <script>
+    function button2() {
+      alert("Please Enter A Valid Txn/UTR");
+    }
+    </script>
     </div>
-  </body>
+    <div>
+    <br>
+    
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <div class="txn">
+      <img src="https://i.ibb.co/Cw6KYL4/images-8.jpg" alt="images-8">
+      <img src="qrcode1.png" alt="Image-3-3" style="height: 400px;width: 400px;"><h5><hr>
+      <font-color="blue">UPI ADDRESS: <hr>gurudevmohanty@paytm<hr>Select address And Copy <hr> <hr><font color="green">Note : Minimum Top-up R.S = 90<hr>After Payment Enter The Transition ID In The Above Box</font></font></h5><font color="blue"><font color="green">
+      <script type="text/javascript">
+      var arrgetbtn=[];
+      arrgetbtn.push({"title":"Telegram","icon":"fwidgethelp-telegram_v2","link":"https://ttttt.me/otpmallshop","target":"_blank","color":"#FFFFFF","background":"#27A5E7"});
+       var WidGetButtonOptions = {
+        id:"db2c8697b1610a5108003918bbec7cc9",
+        iconopen:"fwidgethelp-commenting-o",
+        maintitle:"",
+        mainbackground:"#00ff00",
+        maincolor:"#FFFFFF",
+        pulse:"widgethelp_pulse",
+        fasize:"1.64",
+        direction:"top",
+        position:"rightbottom",
+        arrbtn: arrgetbtn
+      }; 
+      (function() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = true;
+        script.src = "https://getbtn.com/widget/index.php?id="+WidGetButtonOptions.id;
+        document.getElementsByTagName("head")[0].appendChild(script);
+      })();</script>
+  </div>
+
+<style>
+
+.sidenav {
+      height: 10%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 20; /* Stay at the top */
+      left: 5;
+      background-color: #e6e2d3; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    /* The navigation menu links */
+    .ff {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 20px;
+      color: red;
+      display: float;
+      transition: 0.3s;
+    }
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #111;
+    }
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    img {
+        max-width: 100%;
+    }
+    body  {
+    background-color: #384353;
+        background-repeat: no-repeat;
+          background-attachment: fixed;
+    }
+    .txn {
+    font: bold 18px Poppins, sans-serif;
+    border: none;
+    border-radius: 1px;
+    margin: 5px;
+    word-wrap:break-word;
+    padding: 10px 15px;
+    background-color: #eaeef5;
+      border-radius: 5px 5px 5px 5px;
+    }
+    .txn2 {
+    background-color: #eaeef5;
+    border: solid;
+    border-radius: 1px;
+    word-wrap:break-word;
+    padding: 5px 10px;
+    margin:0;  
+    border-radius: 5px 15px 5px 15px;
+    }
+    input[type=text], select {
+      width: 68%;
+        background: #FDFCFB;
+        font-family: inherit;
+        color: #737373;
+        letter-spacing: 1px;
+        text-indent: 5%;
+        border-radius: 3px 3px 3px 3px;
+            padding: 12px;
+        height: 43px;
+        border: none;
+    padding: 5px 0px 3px 3px;
+    margin: 5px 10px 10px 0px;
+    border: 2px solid #DDDDDD
+    }
+    textarea {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    button[type=submit] {
+      transition: 0.5s;
+      width: auto;
+      background-color: 4CAF50;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+    }
+    .container {
+      display: grid;
+    border-radius: 4px;
+      background-color: #708090;
+    padding: 10px;
+    margin-top: 50px;
+    /*margin: 10px;*/
+    }
+    .container2 {
+      display: inline-block;
+      cursor: pointer;
+    }
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: red;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+    /* Rotate first bar */
+    .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+      transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    /* Fade out the second bar */
+    .change .bar2 {
+      opacity: 0;
+    }
+    /* Rotate last bar */
+    .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+      transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    textarea
+    {
+      width:90%;
+    }
+    select {
+      width: 71%;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      
+    }
+    select:focus{
+        outline: none;
+        box-shadow: 0px 0px 5px #4CAF50;
+        border-color: #4CAF50;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    .select2-selection__rendered { line-height: 40px !important;} .select2-container .select2-selection--single { height: 45px !important; } .select2-selection__arrow { height: 32px !important; }
+    
+
+
+
+
+
+
+
+
+
+  txn {
+    font: bold 18px Poppins, sans-serif;
+    border: none;
+    border-radius: 1px;
+    margin: 5px;
+    word-wrap: break-word;
+    padding: 10px 15px;
+    background-color: #eaeef5;
+    border-radius: 5px 5px 5px 5px;
+}
+.txn {
+    font: bold 18px Poppins, sans-serif;
+    border: none;
+    border-radius: 1px;
+    margin: 5px;
+    word-wrap: break-word;
+    padding: 10px 15px;
+    background-color: #eaeef5;
+    border-radius: 5px 5px 5px 5px;
+}
+    h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 5%;
+}
+
+
+input[type=text]  {
+    width: 68%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 3px 3px 3px 3px;
+    padding: 12px;
+    height: 43px;
+    border: none;
+    padding: 5px 0px 3px 3px;
+    margin: 50px;
+    border: 2px solid #DDDDDD;
+    
+}
+select {
+  width: 65%;
+    background: #FDFCFB;
+    font-family: inherit;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 3px 3px 3px 3px;
+    padding: 12px;
+    height: 43px;
+    border: none;
+    padding: 5px 0px 3px 3px;
+    border: 2px solid #DDDDDD;
+ text-align: center;
+}
+  </style>
+</body>
 </html>
- 
