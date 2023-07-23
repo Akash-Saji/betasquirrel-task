@@ -1,0 +1,58 @@
+body {
+  background-color: #fff;
+  margin: auto;
+}
+#main-box {
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+#main-box h2 {
+  text-align: center;
+  padding: 1%;
+}
+.second-box {
+  background-color: rgb(221, 235, 234);
+  height: 550px;
+  width: 400px;
+  margin: auto;
+  padding-top: 80px;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.btn {
+  display: inline-block;
+  height: 60px;
+  width: 70px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.display-container {
+  background-color: rgb(143, 242, 199);
+  width: 350px;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 100px;
+}
+img {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+.equals {
+  color: #fff;
+}
+.operator {
+  background-color: #6c757d;
+  color: #fff;
+}
+.clear {
+  background-color: rgb(163, 165, 165);
+  border-color: rgb(221, 235, 234);
+  color: darkred;
+  font-weight: bold;
+}
