@@ -80,10 +80,30 @@
 - stack overflow account [Click here](https://stackoverflow.com/users/21205553/akash-saji)
 - linkedin account [Click here](https://www.linkedin.com/in/akash-saji-358204266) 
 
+
+
+
 ### **Task 7**
+
+
+- figma moble page [Click here](https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?type=design&node-id=135-16&t=K8i0qpxSX5xa5hVF-0&scaling=scale-down&page-id=135%3A15&starting-point-node-id=135%3A16)
+- figma desktop page  [Click here](https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?type=design&node-id=100-2&t=K8i0qpxSX5xa5hVF-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=100%3A2)
+ 
+### **Task 8**
 
 | PC view indexpage          | pc view student page       | index page mobile view    |student page mobile view   |
 | -------------------------- | -------------------------- | ------------------------- |-------------------------- |
 | ![task 7](task-7/images/22.png) | ![Task 7](task-7/images/11.png) | ![task 7](task-7/images/33.png) | ![Task 7](task-7/images/44.png) |
+|
+
+###**Task 8**
+
+| Calculater                   |
+| ---------------------------- |
+| ![task 8](task-8/image/image.png) |
+|                                   |
+
+
+
 
 ## end
