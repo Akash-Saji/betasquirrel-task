@@ -76,7 +76,11 @@
 
 ### **Task 6**
 
+<<<<<<< HEAD
 - my page [Click here](https://akash-saji.github.io/betasquirrel-task/)
+=======
+- my page [Click here](https://github.com/Akash-Saji/betasquirrel-task)
+>>>>>>> 1fabfacd9f57e473f85cebff4e9075ffda0a5018
 - stack overflow account [Click here](https://stackoverflow.com/users/21205553/akash-saji)
 - linkedin account [Click here](https://www.linkedin.com/in/akash-saji-358204266) 
 
