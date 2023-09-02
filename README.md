@@ -37,7 +37,6 @@
 | ----------------------------------------- | ------------------------------------------------ |
 | Task4 ![Task 4](task-4/images/input.jpg)  | Screenshot ![Screenshot](task-4/images/res.png)  |
                 
-
 ### _Linux Commands_
 
 | Commands |                                   | Example               |
@@ -76,19 +75,11 @@
 
 ### **Task 6**
 
-<<<<<<< HEAD
 - my page [Click here](https://akash-saji.github.io/betasquirrel-task/)
-=======
-- my page [Click here](https://github.com/Akash-Saji/betasquirrel-task)
->>>>>>> 1fabfacd9f57e473f85cebff4e9075ffda0a5018
 - stack overflow account [Click here](https://stackoverflow.com/users/21205553/akash-saji)
 - linkedin account [Click here](https://www.linkedin.com/in/akash-saji-358204266) 
 
-
-
-
 ### **Task 7**
-
 
 - figma moble page [Click here](https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?type=design&node-id=135-16&t=K8i0qpxSX5xa5hVF-0&scaling=scale-down&page-id=135%3A15&starting-point-node-id=135%3A16)
 - figma desktop page  [Click here](https://www.figma.com/proto/L9TImEv6nTjl7DJGMqyAMs/Untitled?type=design&node-id=100-2&t=K8i0qpxSX5xa5hVF-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=100%3A2)
@@ -106,8 +97,5 @@
 | ---------------------------- |
 | ![task 8](task-8/image/image.png) |
 |                                   |
-
-
-
 
 ## end
